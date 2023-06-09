@@ -13,8 +13,8 @@ sudo docker exec -it magical_mcclintock bash
 After entering docker container
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/NathanHolzapfel/roleplay_storytelling.git
-cd roleplay_storytelling
+git clone https://github.com/NathanHolzapfel/roleplay_storytelling_robot.git
+cd roleplay_storytelling_robot
 chmod +x scripts/roleplayStorytellingMain.py
 chmod +x scripts/roleplaySay.py
 ```
@@ -111,11 +111,11 @@ Right-click on network link and select Open link, which should open the interfac
 
 ## Run project package [Every time]
 ```
-rosrun roleplay_storytelling roleplaySay.py
+rosrun roleplay_storytelling_robot roleplaySay.py
 ```
 In a new terminal:
 ```
-rosrun roleplay_storytelling roleplayStorytellingMain.py
+rosrun roleplay_storytelling_robot roleplayStorytellingMain.py
 ```
 
 # ARCHITECTURE:
