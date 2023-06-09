@@ -1,0 +1,12 @@
+<launch>
+
+  <group ns="roleplay1">
+    <node pkg="roleplay_storytelling" name="sim" type="roleplayStorytellingMain.py" output="screen" required="true"/>
+  </group>
+
+  <group ns="roleplay2">
+    <node pkg="roleplay_storytelling" name="sim" type="roleplaySay.py" output="screen"/>
+
+  </group>
+
+</launch>
